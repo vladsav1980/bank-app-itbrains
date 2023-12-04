@@ -1,0 +1,31 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  display: block;
+  align-self: flex-start;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+input {
+  padding: 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  border-radius: 12px;
+  border-color: #e9e8eb;
+}
+
+input::placeholder {
+  font-size: 12px;
+}
+
+.field__error {
+  font-size: 14px;
+  align-self: flex-start;
+  margin-left: 20px;
+}

@@ -1,0 +1,15 @@
+.arrowback {
+  transition: opacity 0.7s;
+  position: absolute;
+  left: 20px;
+  top: 61px;
+  font-weight: bold;
+}
+
+.arrowback:hover {
+  opacity: 0.7;
+}
+
+.arrowback:active {
+  opacity: 0.3;
+}

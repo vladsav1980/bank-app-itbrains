@@ -1,0 +1,64 @@
+.transaction {
+  display: grid;
+  width: 353px;
+
+  align-items: center;
+
+  grid-template-columns: 50px 1fr auto;
+  gap: 12px;
+}
+
+.transaction__logo {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  background: #f7f7f7;
+}
+
+.transaction__contragent {
+  font-weight: 500;
+}
+
+.transaction_details {
+  display: flex;
+  font-size: 12px;
+  color: #939199;
+  gap: 4px;
+}
+
+.transaction__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex-basis: 200 px;
+}
+
+.transaction__amount {
+  color: #939199;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  text-align: right;
+}
+
+.transaction__amount .integer-part {
+  color: #1d1d1f;
+  font-weight: 500;
+}
+
+.transaction__amount--green {
+  color: #26bf80;
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  text-align: right;
+}
+
+.transaction__amount--green .integer-part {
+  color: #24b277;
+  font-weight: 500;
+}

@@ -1,0 +1,41 @@
+.button {
+  display: flex;
+  margin: 0 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: #775ce5;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.7s;
+}
+
+.button:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.button:active {
+  opacity: 0.3;
+}
+
+.button-white {
+  border: 1px solid #775ce5;
+  color: #775ce5;
+  background-color: #fff;
+}
+
+.button-danger {
+  border: 1px solid #f23152;
+  color: #f23152;
+  background-color: #fff;
+}
+
+.button-small {
+  padding: 16px;
+  font-size: 14px;
+}

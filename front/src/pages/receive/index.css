@@ -1,0 +1,68 @@
+.settings__title {
+  padding-top: 41px;
+}
+
+.settings__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.settings__form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.settings__title h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 14px;
+  color: #939199;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+
+.settings__error {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.settings__success {
+  color: green;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.dollar-icon {
+  position: absolute;
+  left: 27px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: #555;
+}
+
+.payment-logos {
+  display: flex;
+  gap: 8px;
+}
+
+.payment-system {
+  display: grid;
+  width: 353px;
+
+  align-items: center;
+
+  grid-template-columns: 50px 1fr auto;
+  gap: 12px;
+  cursor: pointer;
+}

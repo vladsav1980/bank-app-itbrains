@@ -1,0 +1,47 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  display: block;
+  align-self: flex-start;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.input-container {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.input-container input {
+  width: 290px;
+  padding: 16px 46px 16px 16px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  border-radius: 12px;
+  border-color: #e9e8eb;
+}
+
+.password-toggle-button::after {
+  content: url("./show.svg");
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.password-toggle-button.show-password::after {
+  content: url("./hide.svg");
+}
+
+.field__error {
+  font-size: 14px;
+  align-self: flex-start;
+  margin-left: 20px;
+}

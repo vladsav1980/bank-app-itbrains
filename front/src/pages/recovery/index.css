@@ -1,0 +1,32 @@
+.title {
+  padding-top: 107px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 14px;
+  color: #939199;
+  margin-bottom: 32px;
+  font-weight: 400;
+}
+
+.error {
+  border-radius: 10px;
+  background: rgba(242, 136, 61, 0.1);
+  padding: 16px;
+  font-size: 14px;
+  color: #f2883d;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
